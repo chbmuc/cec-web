@@ -62,7 +62,7 @@ The app provides the following JSON based RESTful API:
 
 #### Responses
 
-successful (PUT/DELETE); is powered on (GET)
+success (PUT/DELETE); is powered on (GET)
 
     HTTP/1.1 204 No Content
 
@@ -86,6 +86,7 @@ is in standy/no power (GET)
 * ``PUT /key/:device/:key`` - Send key press command followed by key release
 
 ``:device`` is the name of the device on the CEC bus (see ``GET /info``)
+
 ``:key`` is the name (e.g. ``down``) or the keycode in hex (e.g. ``0x00``) of a remote key
 
 #### Response
