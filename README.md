@@ -3,7 +3,7 @@ cec-web
 
 A REST micro webservice to control devices via the CEC bus in HDMI.
 
-Written in Go with some help from Gin(http://gin-gonic.github.io/gin/), Go-Flags(https://github.com/jessevdk/go-flags) and cec.go(https://github.com/chbmuc/cec).
+Written in Go with some help from [Gin](http://gin-gonic.github.io/gin/), [Go-Flags](https://github.com/jessevdk/go-flags) and [cec.go](https://github.com/chbmuc/cec).
 
 Usage
 =====
@@ -96,6 +96,7 @@ is in standy/no power (GET)
 
 * ``POST /transmit`` - Send a list of CEC commands over the bus
 
+data example:
 ```json
 [
   "40:04",
@@ -103,4 +104,4 @@ is in standy/no power (GET)
 ]
 ```
 
-Hint: Use cec-o-matic(http://www.cec-o-matic.com/) to generate commands.
+Hint: Use [cec-o-matic](http://www.cec-o-matic.com/) to generate commands.
