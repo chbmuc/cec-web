@@ -85,9 +85,8 @@ is in standy/no power (GET)
 
 * ``PUT /key/:device/:key`` - Send key press command followed by key release
 
-``:device`` is the name of the device on the CEC bus (see ``GET /info``)
-
-``:key`` is the name (e.g. ``down``) or the keycode in hex (e.g. ``0x00``) of a remote key
+> ``:device`` is the name of the device on the CEC bus (see ``GET /info``)
+> ``:key`` is the name (e.g. ``down``) or the keycode in hex (e.g. ``0x00``) of a remote key
 
 #### Response
 
